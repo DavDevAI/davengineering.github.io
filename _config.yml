@@ -3,7 +3,7 @@ url: "https://davdevai.github.io/davengineering.github.io/"
 email: davidalonsolopezrivasjose@gmail.com
 timezone: UTC                                         
 baseurl: "/blog"
-permalink: "/title"
+permalink: "/:title"
 logo: '🎯'
 favicon: '🎯'
 # author: Sean
