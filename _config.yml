@@ -1,0 +1,66 @@
+title: David Alonso 
+url: "https://davengineering.github.io"
+email: davidalonsolopezrivasjose@gmail.com
+timezone: UTC                                         
+baseurl: "/blog"
+permalink: "/:title/"
+logo: '🎯'
+favicon: '🎯'
+# author: Sean
+paginate: 30
+# disqus: 'demowebsite'
+words_per_minute: 200
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  # syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    disable: true
+  autoids: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: G-44DBYLHDVP
+# Authors
+# authors:
+#   sal:
+#     name: Sal
+#     display_name: Sal
+#     avatar: 'assets/images/sal.png'
+#     email: wowthemesnet@gmail.com
+#     web: https://www.wowthemes.net/category/jekyll-themes/
+#     twitter: https://twitter.com/wowthemesnet
+#     description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+#   john:
+#     name: John
+#     display_name: John
+#     avatar: 'assets/images/john.png'
+#     email: wowthemesnet@gmail.com
+#     web: https://www.wowthemes.net/category/jekyll-themes/
+#     twitter: https://twitter.com/wowthemesnet
+#     description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+
+# Social
+social:
+ 
+  github: https://github.com/DavDevAI
+  linkedin: https://www.linkedin.com/in/david-alonso-lrj/
+  #youtube: https://www.youtube.com/channel/UCSMmECMAWD-FGQWWuThr7_w
+  # facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
+  twitter: https://x.com/Im_DavidAlonso
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
+
+exclude:
+- serve.sh
+- /_scripts/

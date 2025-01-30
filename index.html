@@ -1,0 +1,70 @@
+---
+title: Home
+layout: default
+background: '/img/bg-index.jpg'
+---
+
+<!-- Home Intro
+================================================== -->
+{% if page.url == "/" %} 
+<div class="rounded mb-5">
+  <div class="row align-items-center justify-content-between">
+    <div class="col-md-6">
+      <h1 class="font-weight-bold mb-4 serif-font">David Alonso</h1>
+      <br>
+      <p class="lead mb-4">Hey there! I am David Alonso, Aeronautical Engineer (EECS Minor 2021-2024, Maintance Engineering Major @UNAQ). Experience working 
+        on Avionics Systems, Aeronautical Design and Engineering, Electronics, Robotics and Autonomous Drone Software Development
+      </p>
+    </div>
+      <div class="col-md-6 text-center pl-0 pl-lg-4d face-on-cover" style="text-align: center;">
+        <img class="intro" height="500" src="{{site.baseurl}}/assets/images/orange_blob2.svg">      
+        <img class="face-image" src="{{site.baseurl}}/assets/images/dface.png">
+      </div>
+  </div>
+</div>
+
+<!-- Featured
+================================================== -->
+<h4><i>Featured:</i></h4>
+<section class="row pt-4">
+  {% for post in site.posts %}
+      {% if post.featured == true %}
+          <div class="col-md-4 mb-5">
+          {% include postbox.html %}
+          </div>
+      {% endif %}
+  {% endfor %}
+  </div>
+</section>
+<hr>
+
+{% endif %}
+
+
+<!-- Posts List with Sidebar (except featured)
+================================================== -->
+<section class="row">
+  <!-- <div class="col-sm-8"> -->
+    <!-- <div class="row"> -->
+
+      {% for post in paginator.posts %}
+
+      {% unless post.featured == true %}
+      <div class="col-md-4 mb-5">
+        {% include postbox.html %}
+      </div>
+      {% endunless %}
+      {% endfor %}
+    <!-- </div> -->
+    <!-- Pagination -->
+    <div class="bottompagination">
+      <span class="navigation" role="navigation">
+          {% include pagination.html %}
+      </span>
+    </div>
+  <!-- </div> -->
+  <!-- <div class="col-sm-4">
+    {% include sidebar.html %}
+  </div> -->
+
+</section>
