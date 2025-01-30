@@ -1,9 +1,9 @@
 title: David Alonso 
-url: "https://davengineering.github.io"
+url: "https://davdevai.github.io/davengineering.github.io/"
 email: davidalonsolopezrivasjose@gmail.com
 timezone: UTC                                         
-baseurl: ""
-permalink: "pretty"
+baseurl: "/blog"
+permalink: "/title"
 logo: '🎯'
 favicon: '🎯'
 # author: Sean
