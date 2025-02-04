@@ -1,8 +1,8 @@
 title: David Alonso 
-url: "https://davdevai.github.io"
+url: "https://davdevai.github.io" # mi user de Github
 email: davidalonsolopezrivasjose@gmail.com
 timezone: UTC                                         
-baseurl: "/davengineering.github.io"
+baseurl: "/davengineering.github.io" #el nombre de mi repo
 permalink: "/:title"
 logo: '🎯'
 favicon: '🎯'

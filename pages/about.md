@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: "/about/"
-image: assets/images/yocover.jpg
+image: assets/images/yocover.JPG
 ---
 
 Hello there, I'm David Alonso LopezRivas Jose and I am a Graduate Student of the Aeronautical University in Querétaro; passionate about Aeronautics, Science, Robotics and Technology, committed to the search for evolution through innovation and development through science as a tool for universal knowledge.  
