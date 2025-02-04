@@ -2,6 +2,9 @@
 
 source "https://rubygems.org"
 gem "jekyll", "~> 4.2.0"
+# gem "csv"
+# gem "base64"
+# gem "bigdecimal"
 
 
 # Hello! This is where you manage which Jekyll version is used to run.
